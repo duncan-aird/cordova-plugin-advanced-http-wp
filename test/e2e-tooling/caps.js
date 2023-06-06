@@ -60,6 +60,7 @@ const configs = {
 
   // testing on BrowserStack
   browserstackIosDevice: {
+    'appium-version': '1.20.2',
     device: 'iPhone 12',
     os_version: '14',
     project: 'HTTP Test App',
@@ -68,7 +69,8 @@ const configs = {
     'browserstack.networkLogs': false
   },
   browserstackAndroidDevice: {
-    device: 'Google Nexus 6',
+    'appium-version': '1.18.0',
+    device: 'Samsung Galaxy S7',
     os_version: '6.0',
     project: 'HTTP Test App',
     autoWebview: true,
