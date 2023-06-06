@@ -23,3 +23,5 @@ var publicInterface = require(pluginId + '.public-interface')(exec, cookieHandle
 dependencyValidator.logWarnings();
 
 module.exports = publicInterface;
+
+require("cordova/exec/proxy").add("CordovaHttpPlugin", module.exports);
